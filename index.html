@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="This is Description">
+    <meta name="keyword" content="html, html tutorials, web development">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>E-mail Validator </title>
+    <!-- This is how you include external css -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img.svg/Emails.svg" alt="Email svg">
+                <span>iValidate</span>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter your E-mail to validate</h1>
+            <form action="/submit" method="post">
+
+                <label for="username">Email:</label>
+                <input placeholder="Enter your email to validate" type="text" id="username" name="username" required>
+                <br><br>
+
+                <!-- Text input for username -->
+                <!-- <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br> -->
+
+                <!-- Password input -->
+                <!-- <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br> -->
+
+                <!-- Radio buttons for gender -->
+                <!-- <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br> -->
+
+                <!-- Submit button -->
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2>Your Results</h2>
+            <div id="resultCont">
+                Your Resuls will show here
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        Copyright | iValidate.com | All Right reserved
+    </footer>
+    <!--This is how you include external JS  -->
+    <script src="index.js"></script>
+</body>
+
+</html>
